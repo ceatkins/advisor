@@ -1,0 +1,1 @@
+select distinct fldCourseName, fldDays, fldStart from tblSections, tblCourses where tblSections.fnkTeacherNetId = "jlhorton" and tblSections.fnkCourseId = tblCourses.pmkCourseId;'
